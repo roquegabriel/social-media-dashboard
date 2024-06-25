@@ -1,11 +1,13 @@
 import { useState } from 'react'
+import { Header } from './components/Header'
+import { OverviewContainer } from './components/OverviewContainer'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+    <Header />
+    <OverviewContainer />
     </>
   )
 }
